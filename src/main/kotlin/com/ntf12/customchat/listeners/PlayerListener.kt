@@ -1,0 +1,13 @@
+package com.ntf12.customchat.listeners
+
+import org.bukkit.event.Listener
+import org.bukkit.event.EventHandler
+import org.bukkit.event.player.PlayerJoinEvent
+
+class PlayerListener : Listener {
+    
+    @EventHandler
+    fun onPlayerJoin(event: PlayerJoinEvent) {
+        // Handle player join event
+    }
+}

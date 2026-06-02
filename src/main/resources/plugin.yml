@@ -1,0 +1,16 @@
+main: com.ntf12.customchat.customchatplugin
+version: 1.0.0-SNAPSHOT
+name: customchatplugin
+author: ntf12
+api-version: 1.21
+
+commands:
+ setprefix:
+  description: Set your chat prefix (use 'clear' to remove)
+  usage: [/setprefix <text|clear>]
+ setsuffix:
+  description: Set your chat suffix (use 'clear' to remove)
+  usage: [/setsuffix <text|clear>]
+ setcolor:
+  description: Set your chat message color (use 'clear' to remove)
+  usage: [/setcolor <color|clear>]
